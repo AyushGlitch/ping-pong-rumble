@@ -1,5 +1,14 @@
-# Go-specific ignores
-/vendor/
-*.test
+# General ignores
+.DS_Store
+*.log
+.env
+
+# Server-specific
+/server/bin/
+/server/vendor/
 *.exe
 *.out
+
+# Client-specific
+/client/node_modules/
+/client/build/
